@@ -1,0 +1,47 @@
+[1] 7.06
+[1] 2.077498
+[1] 0.9075655
+[1] 2.077498
+[1] 0.9075655
+ [1] 0.51782787 0.92423896 0.95472766 0.36950849 0.60625160 0.79764015
+ [7] 0.58947507 0.68528710 0.18219283 0.28213508 0.35066645 0.54082559
+[13] 0.73421952 0.09920378 0.17916304 0.90162805 0.48284717 0.16744478
+[19] 0.42395187 0.74901832
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+ 0.0992  0.3335  0.5293  0.5269  0.7379  0.9547 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+[1] "/home/madhu/R/x86_64-pc-linux-gnu-library/3.6"
+[2] "/usr/local/lib/R/site-library"                
+[3] "/usr/lib/R/site-library"                      
+[4] "/usr/lib/R/library"                           
+               _                           
+platform       x86_64-pc-linux-gnu         
+arch           x86_64                      
+os             linux-gnu                   
+system         x86_64, linux-gnu           
+status                                     
+major          3                           
+minor          6.0                         
+year           2019                        
+month          04                          
+day            26                          
+svn rev        76424                       
+language       R                           
+version.string R version 3.6.0 (2019-04-26)
+nickname       Planting of a Tree          
+ [1] ".GlobalEnv"        "tools:rstudio"     "package:stats"    
+ [4] "package:graphics"  "package:grDevices" "package:utils"    
+ [7] "package:datasets"  "package:methods"   "Autoloads"        
+[10] "package:base"     
+ [1] ".GlobalEnv"        "package:readr"     "tools:rstudio"    
+ [4] "package:stats"     "package:graphics"  "package:grDevices"
+ [7] "package:utils"     "package:datasets"  "package:methods"  
+[10] "Autoloads"         "package:base"     
+Error in install.packages : argument "pkgs" is missing, with no default

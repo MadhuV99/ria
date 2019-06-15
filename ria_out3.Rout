@@ -1,0 +1,1158 @@
+null device 
+          1 
+R version 3.6.0 (2019-04-26)
+Platform: x86_64-pc-linux-gnu (64-bit)
+Running under: Ubuntu 18.04.2 LTS
+
+Matrix products: default
+BLAS:   /usr/lib/x86_64-linux-gnu/openblas/libblas.so.3
+LAPACK: /usr/lib/x86_64-linux-gnu/libopenblasp-r0.2.20.so
+
+locale:
+ [1] LC_CTYPE=en_US.UTF-8       LC_NUMERIC=C              
+ [3] LC_TIME=en_US.UTF-8        LC_COLLATE=en_US.UTF-8    
+ [5] LC_MONETARY=en_US.UTF-8    LC_MESSAGES=en_US.UTF-8   
+ [7] LC_PAPER=en_US.UTF-8       LC_NAME=C                 
+ [9] LC_ADDRESS=C               LC_TELEPHONE=C            
+[11] LC_MEASUREMENT=en_US.UTF-8 LC_IDENTIFICATION=C       
+
+attached base packages:
+[1] stats     graphics  grDevices utils     datasets  methods   base     
+
+loaded via a namespace (and not attached):
+[1] compiler_3.6.0 tools_3.6.0   
+  age gender weight
+1  25      m    166
+2  30      f    115
+3  18      f    120
+'data.frame':	3 obs. of  3 variables:
+ $ age   : num  25 30 18
+ $ gender: Factor w/ 2 levels "m","f": 1 2 2
+ $ weight: num  166 115 120
+  age gender weight
+1  25      m    166
+2  30      f    115
+3  18      f    120
+'data.frame':	3 obs. of  3 variables:
+ $ age   : num  25 30 18
+ $ gender: Factor w/ 2 levels "m","f": 1 2 2
+ $ weight: num  166 115 120
+[1] "\nage gender weight\n25 m 166\n30 f 115\n18 f 120\n"
+[1] "\nage gender weight\n25 m 166\n30 f 115\n18 f 120\n"
+  age gender weight
+1  25      m    166
+2  30      f    115
+3  18      f    120
+   First          Last Math Science Social.Studies
+11   Bob         Smith   90      80             67
+12  Jane         Weary   75      NA             80
+10   Dan Thornton, III   65      75             70
+40  Mary       O'Leary   90      95             92
+'data.frame':	4 obs. of  5 variables:
+ $ First         : Factor w/ 4 levels "Bob","Dan","Jane",..: 1 3 2 4
+ $ Last          : Factor w/ 4 levels "O'Leary","Smith",..: 2 4 3 1
+ $ Math          : int  90 75 65 90
+ $ Science       : int  80 NA 75 95
+ $ Social.Studies: int  67 80 70 92
+    First          Last Math Science Social.Studies
+011   Bob         Smith   90      80             67
+012  Jane         Weary   75      NA             80
+010   Dan Thornton, III   65      75             70
+040  Mary       O'Leary   90      95             92
+'data.frame':	4 obs. of  5 variables:
+ $ First         : chr  "Bob" "Jane" "Dan" "Mary"
+ $ Last          : chr  "Smith" "Weary" "Thornton, III" "O'Leary"
+ $ Math          : num  90 75 65 90
+ $ Science       : num  80 NA 75 95
+ $ Social.Studies: num  67 80 70 92
+R version 3.6.0 (2019-04-26)
+Platform: x86_64-pc-linux-gnu (64-bit)
+Running under: Ubuntu 18.04.2 LTS
+
+Matrix products: default
+BLAS:   /usr/lib/x86_64-linux-gnu/openblas/libblas.so.3
+LAPACK: /usr/lib/x86_64-linux-gnu/libopenblasp-r0.2.20.so
+
+locale:
+ [1] LC_CTYPE=en_US.UTF-8       LC_NUMERIC=C              
+ [3] LC_TIME=en_US.UTF-8        LC_COLLATE=en_US.UTF-8    
+ [5] LC_MONETARY=en_US.UTF-8    LC_MESSAGES=en_US.UTF-8   
+ [7] LC_PAPER=en_US.UTF-8       LC_NAME=C                 
+ [9] LC_ADDRESS=C               LC_TELEPHONE=C            
+[11] LC_MEASUREMENT=en_US.UTF-8 LC_IDENTIFICATION=C       
+
+attached base packages:
+[1] stats     graphics  grDevices utils     datasets  methods   base     
+
+loaded via a namespace (and not attached):
+[1] compiler_3.6.0 tools_3.6.0   
+[1] FALSE
+Warning in install.packages :
+  installation of package ‘rJava’ had non-zero exit status
+Warning in install.packages :
+  installation of package ‘xlsxjars’ had non-zero exit status
+Warning in install.packages :
+  installation of package ‘xlsx’ had non-zero exit status
+Warning in install.packages :
+  installation of package ‘rJava’ had non-zero exit status
+R version 3.6.0 (2019-04-26)
+Platform: x86_64-pc-linux-gnu (64-bit)
+Running under: Ubuntu 18.04.2 LTS
+
+Matrix products: default
+BLAS:   /usr/lib/x86_64-linux-gnu/openblas/libblas.so.3
+LAPACK: /usr/lib/x86_64-linux-gnu/libopenblasp-r0.2.20.so
+
+locale:
+ [1] LC_CTYPE=en_US.UTF-8       LC_NUMERIC=C              
+ [3] LC_TIME=en_US.UTF-8        LC_COLLATE=en_US.UTF-8    
+ [5] LC_MONETARY=en_US.UTF-8    LC_MESSAGES=en_US.UTF-8   
+ [7] LC_PAPER=en_US.UTF-8       LC_NAME=C                 
+ [9] LC_ADDRESS=C               LC_TELEPHONE=C            
+[11] LC_MEASUREMENT=en_US.UTF-8 LC_IDENTIFICATION=C       
+
+attached base packages:
+[1] stats     graphics  grDevices utils     datasets  methods   base     
+
+loaded via a namespace (and not attached):
+[1] compiler_3.6.0 tools_3.6.0   
+[1] guy  girl girl guy  guy 
+Levels: girl guy
+ Factor w/ 2 levels "girl","guy": 2 1 1 2 2
+[1] "guy"  "girl" "girl" "guy"  "guy" 
+[1] "guy"  "girl" "girl" "guy"  "guy" 
+ chr [1:5] "guy" "girl" "girl" "guy" "guy"
+[1] "guy"  "girl" "girl" "guy"  "guy" 
+ chr [1:5] "guy" "girl" "girl" "guy" "guy"
+[1] <NA> <NA> <NA> <NA> <NA>
+Levels: male female
+[1] <NA> <NA> <NA> <NA> <NA>
+Levels: male female
+[1] 1 2 2 1 1
+ num [1:5] 1 2 2 1 1
+[1] 1 2 2 1 1
+ num [1:5] 1 2 2 1 1
+[1] "1" "2" "2" "1" "1"
+[1] "1" "2" "2" "1" "1"
+ chr [1:5] "1" "2" "2" "1" "1"
+[1] male   female female male   male  
+Levels: male female
+ Factor w/ 2 levels "male","female": 1 2 2 1 1
+[1] 1 2 2 1 1
+Levels: 1 2
+ Factor w/ 2 levels "1","2": 1 2 2 1 1
+[1] 5 5
+[1] 5
+[1] "data.frame"
+[1] "numeric"
+[1] "character"
+[1] "character"
+[1] "list"
+[1] "patientID" "age"       "gender"    "diabetes"  "status"   
+R version 3.6.0 (2019-04-26)
+Platform: x86_64-pc-linux-gnu (64-bit)
+Running under: Ubuntu 18.04.2 LTS
+
+Matrix products: default
+BLAS:   /usr/lib/x86_64-linux-gnu/openblas/libblas.so.3
+LAPACK: /usr/lib/x86_64-linux-gnu/libopenblasp-r0.2.20.so
+
+locale:
+ [1] LC_CTYPE=en_US.UTF-8       LC_NUMERIC=C              
+ [3] LC_TIME=en_US.UTF-8        LC_COLLATE=en_US.UTF-8    
+ [5] LC_MONETARY=en_US.UTF-8    LC_MESSAGES=en_US.UTF-8   
+ [7] LC_PAPER=en_US.UTF-8       LC_NAME=C                 
+ [9] LC_ADDRESS=C               LC_TELEPHONE=C            
+[11] LC_MEASUREMENT=en_US.UTF-8 LC_IDENTIFICATION=C       
+
+attached base packages:
+[1] stats     graphics  grDevices utils     datasets  methods   base     
+
+loaded via a namespace (and not attached):
+[1] compiler_3.6.0 tools_3.6.0   
+function (which = dev.cur()) 
+{
+    if (which == 1) 
+        stop("cannot shut down device 1 (the null device)")
+    .External(C_devoff, as.integer(which))
+    dev.cur()
+}
+<bytecode: 0x5650d9e74fa0>
+<environment: namespace:grDevices>
+function (which = dev.cur()) 
+{
+    if (which == 1) 
+        stop("cannot shut down device 1 (the null device)")
+    .External(C_devoff, as.integer(which))
+    dev.cur()
+}
+<bytecode: 0x5650d9e74fa0>
+<environment: namespace:grDevices>
+function (which = dev.cur()) 
+{
+    if (which == 1) 
+        stop("cannot shut down device 1 (the null device)")
+    .External(C_devoff, as.integer(which))
+    dev.cur()
+}
+<bytecode: 0x5650d9e74fa0>
+<environment: namespace:grDevices>
+pdf 
+  4 
+null device 
+          1 
+$xlog
+[1] FALSE
+
+$ylog
+[1] FALSE
+
+$adj
+[1] 0.5
+
+$ann
+[1] TRUE
+
+$ask
+[1] FALSE
+
+$bg
+[1] "white"
+
+$bty
+[1] "o"
+
+$cex
+[1] 1
+
+$cex.axis
+[1] 1
+
+$cex.lab
+[1] 1
+
+$cex.main
+[1] 1.2
+
+$cex.sub
+[1] 1
+
+$cin
+[1] 0.15 0.20
+
+$col
+[1] "black"
+
+$col.axis
+[1] "black"
+
+$col.lab
+[1] "black"
+
+$col.main
+[1] "black"
+
+$col.sub
+[1] "black"
+
+$cra
+[1] 14.4 19.2
+
+$crt
+[1] 0
+
+$csi
+[1] 0.2
+
+$cxy
+[1] 1.667954 3.490909
+
+$din
+[1] 5.1250 4.5625
+
+$err
+[1] 0
+
+$family
+[1] ""
+
+$fg
+[1] "black"
+
+$fig
+[1] 0 1 0 1
+
+$fin
+[1] 5.1250 4.5625
+
+$font
+[1] 1
+
+$font.axis
+[1] 1
+
+$font.lab
+[1] 1
+
+$font.main
+[1] 2
+
+$font.sub
+[1] 1
+
+$lab
+[1] 5 5 7
+
+$las
+[1] 0
+
+$lend
+[1] "round"
+
+$lheight
+[1] 1
+
+$ljoin
+[1] "round"
+
+$lmitre
+[1] 10
+
+$lty
+[1] "solid"
+
+$lwd
+[1] 1
+
+$mai
+[1] 1.02 0.82 0.82 0.42
+
+$mar
+[1] 5.1 4.1 4.1 2.1
+
+$mex
+[1] 1
+
+$mfcol
+[1] 1 1
+
+$mfg
+[1] 1 1 1 1
+
+$mfrow
+[1] 1 1
+
+$mgp
+[1] 3 1 0
+
+$mkh
+[1] 0.001
+
+$new
+[1] FALSE
+
+$oma
+[1] 0 0 0 0
+
+$omd
+[1] 0 1 0 1
+
+$omi
+[1] 0 0 0 0
+
+$page
+[1] TRUE
+
+$pch
+[1] 1
+
+$pin
+[1] 3.8850 2.7225
+
+$plt
+[1] 0.1600000 0.9180488 0.2235616 0.8202740
+
+$ps
+[1] 12
+
+$pty
+[1] "m"
+
+$smo
+[1] 1
+
+$srt
+[1] 0
+
+$tck
+[1] NA
+
+$tcl
+[1] -0.5
+
+$usr
+[1] 18.40 61.60 14.24 61.76
+
+$xaxp
+[1] 20 60  4
+
+$xaxs
+[1] "r"
+
+$xaxt
+[1] "s"
+
+$xpd
+[1] FALSE
+
+$yaxp
+[1] 20 60  4
+
+$yaxs
+[1] "r"
+
+$yaxt
+[1] "s"
+
+$ylbias
+[1] 0.2
+
+$xlog
+[1] FALSE
+
+$ylog
+[1] FALSE
+
+$adj
+[1] 0.5
+
+$ann
+[1] TRUE
+
+$ask
+[1] FALSE
+
+$bg
+[1] "white"
+
+$bty
+[1] "o"
+
+$cex
+[1] 1
+
+$cex.axis
+[1] 1
+
+$cex.lab
+[1] 1
+
+$cex.main
+[1] 1.2
+
+$cex.sub
+[1] 1
+
+$col
+[1] "black"
+
+$col.axis
+[1] "black"
+
+$col.lab
+[1] "black"
+
+$col.main
+[1] "black"
+
+$col.sub
+[1] "black"
+
+$crt
+[1] 0
+
+$err
+[1] 0
+
+$family
+[1] ""
+
+$fg
+[1] "black"
+
+$fig
+[1] 0 1 0 1
+
+$fin
+[1] 5.1250 4.5625
+
+$font
+[1] 1
+
+$font.axis
+[1] 1
+
+$font.lab
+[1] 1
+
+$font.main
+[1] 2
+
+$font.sub
+[1] 1
+
+$lab
+[1] 5 5 7
+
+$las
+[1] 0
+
+$lend
+[1] "round"
+
+$lheight
+[1] 1
+
+$ljoin
+[1] "round"
+
+$lmitre
+[1] 10
+
+$lty
+[1] "solid"
+
+$lwd
+[1] 1
+
+$mai
+[1] 1.02 0.82 0.82 0.42
+
+$mar
+[1] 5.1 4.1 4.1 2.1
+
+$mex
+[1] 1
+
+$mfcol
+[1] 1 1
+
+$mfg
+[1] 1 1 1 1
+
+$mfrow
+[1] 1 1
+
+$mgp
+[1] 3 1 0
+
+$mkh
+[1] 0.001
+
+$new
+[1] FALSE
+
+$oma
+[1] 0 0 0 0
+
+$omd
+[1] 0 1 0 1
+
+$omi
+[1] 0 0 0 0
+
+$pch
+[1] 1
+
+$pin
+[1] 3.8850 2.7225
+
+$plt
+[1] 0.1600000 0.9180488 0.2235616 0.8202740
+
+$ps
+[1] 12
+
+$pty
+[1] "m"
+
+$smo
+[1] 1
+
+$srt
+[1] 0
+
+$tck
+[1] NA
+
+$tcl
+[1] -0.5
+
+$usr
+[1] 18.40 61.60 14.24 61.76
+
+$xaxp
+[1] 20 60  4
+
+$xaxs
+[1] "r"
+
+$xaxt
+[1] "s"
+
+$xpd
+[1] FALSE
+
+$yaxp
+[1] 20 60  4
+
+$yaxs
+[1] "r"
+
+$yaxt
+[1] "s"
+
+$ylbias
+[1] 0.2
+
+$xlog
+[1] FALSE
+
+$ylog
+[1] FALSE
+
+$adj
+[1] 0.5
+
+$ann
+[1] TRUE
+
+$ask
+[1] FALSE
+
+$bg
+[1] "white"
+
+$bty
+[1] "o"
+
+$cex
+[1] 1
+
+$cex.axis
+[1] 1
+
+$cex.lab
+[1] 1
+
+$cex.main
+[1] 1.2
+
+$cex.sub
+[1] 1
+
+$col
+[1] "black"
+
+$col.axis
+[1] "black"
+
+$col.lab
+[1] "black"
+
+$col.main
+[1] "black"
+
+$col.sub
+[1] "black"
+
+$crt
+[1] 0
+
+$err
+[1] 0
+
+$family
+[1] ""
+
+$fg
+[1] "black"
+
+$fig
+[1] 0 1 0 1
+
+$fin
+[1] 5.1250 4.5625
+
+$font
+[1] 1
+
+$font.axis
+[1] 1
+
+$font.lab
+[1] 1
+
+$font.main
+[1] 2
+
+$font.sub
+[1] 1
+
+$lab
+[1] 5 5 7
+
+$las
+[1] 0
+
+$lend
+[1] "round"
+
+$lheight
+[1] 1
+
+$ljoin
+[1] "round"
+
+$lmitre
+[1] 10
+
+$lty
+[1] "solid"
+
+$lwd
+[1] 1
+
+$mai
+[1] 1.02 0.82 0.82 0.42
+
+$mar
+[1] 5.1 4.1 4.1 2.1
+
+$mex
+[1] 1
+
+$mfcol
+[1] 1 1
+
+$mfg
+[1] 1 1 1 1
+
+$mfrow
+[1] 1 1
+
+$mgp
+[1] 3 1 0
+
+$mkh
+[1] 0.001
+
+$new
+[1] FALSE
+
+$oma
+[1] 0 0 0 0
+
+$omd
+[1] 0 1 0 1
+
+$omi
+[1] 0 0 0 0
+
+$pch
+[1] 1
+
+$pin
+[1] 3.8850 2.7225
+
+$plt
+[1] 0.1600000 0.9180488 0.2235616 0.8202740
+
+$ps
+[1] 12
+
+$pty
+[1] "m"
+
+$smo
+[1] 1
+
+$srt
+[1] 0
+
+$tck
+[1] NA
+
+$tcl
+[1] -0.5
+
+$usr
+[1] 18.40 61.60 14.24 61.76
+
+$xaxp
+[1] 20 60  4
+
+$xaxs
+[1] "r"
+
+$xaxt
+[1] "s"
+
+$xpd
+[1] FALSE
+
+$yaxp
+[1] 20 60  4
+
+$yaxs
+[1] "r"
+
+$yaxt
+[1] "s"
+
+$ylbias
+[1] 0.2
+
+  [1] "white"                "aliceblue"            "antiquewhite"        
+  [4] "antiquewhite1"        "antiquewhite2"        "antiquewhite3"       
+  [7] "antiquewhite4"        "aquamarine"           "aquamarine1"         
+ [10] "aquamarine2"          "aquamarine3"          "aquamarine4"         
+ [13] "azure"                "azure1"               "azure2"              
+ [16] "azure3"               "azure4"               "beige"               
+ [19] "bisque"               "bisque1"              "bisque2"             
+ [22] "bisque3"              "bisque4"              "black"               
+ [25] "blanchedalmond"       "blue"                 "blue1"               
+ [28] "blue2"                "blue3"                "blue4"               
+ [31] "blueviolet"           "brown"                "brown1"              
+ [34] "brown2"               "brown3"               "brown4"              
+ [37] "burlywood"            "burlywood1"           "burlywood2"          
+ [40] "burlywood3"           "burlywood4"           "cadetblue"           
+ [43] "cadetblue1"           "cadetblue2"           "cadetblue3"          
+ [46] "cadetblue4"           "chartreuse"           "chartreuse1"         
+ [49] "chartreuse2"          "chartreuse3"          "chartreuse4"         
+ [52] "chocolate"            "chocolate1"           "chocolate2"          
+ [55] "chocolate3"           "chocolate4"           "coral"               
+ [58] "coral1"               "coral2"               "coral3"              
+ [61] "coral4"               "cornflowerblue"       "cornsilk"            
+ [64] "cornsilk1"            "cornsilk2"            "cornsilk3"           
+ [67] "cornsilk4"            "cyan"                 "cyan1"               
+ [70] "cyan2"                "cyan3"                "cyan4"               
+ [73] "darkblue"             "darkcyan"             "darkgoldenrod"       
+ [76] "darkgoldenrod1"       "darkgoldenrod2"       "darkgoldenrod3"      
+ [79] "darkgoldenrod4"       "darkgray"             "darkgreen"           
+ [82] "darkgrey"             "darkkhaki"            "darkmagenta"         
+ [85] "darkolivegreen"       "darkolivegreen1"      "darkolivegreen2"     
+ [88] "darkolivegreen3"      "darkolivegreen4"      "darkorange"          
+ [91] "darkorange1"          "darkorange2"          "darkorange3"         
+ [94] "darkorange4"          "darkorchid"           "darkorchid1"         
+ [97] "darkorchid2"          "darkorchid3"          "darkorchid4"         
+[100] "darkred"              "darksalmon"           "darkseagreen"        
+[103] "darkseagreen1"        "darkseagreen2"        "darkseagreen3"       
+[106] "darkseagreen4"        "darkslateblue"        "darkslategray"       
+[109] "darkslategray1"       "darkslategray2"       "darkslategray3"      
+[112] "darkslategray4"       "darkslategrey"        "darkturquoise"       
+[115] "darkviolet"           "deeppink"             "deeppink1"           
+[118] "deeppink2"            "deeppink3"            "deeppink4"           
+[121] "deepskyblue"          "deepskyblue1"         "deepskyblue2"        
+[124] "deepskyblue3"         "deepskyblue4"         "dimgray"             
+[127] "dimgrey"              "dodgerblue"           "dodgerblue1"         
+[130] "dodgerblue2"          "dodgerblue3"          "dodgerblue4"         
+[133] "firebrick"            "firebrick1"           "firebrick2"          
+[136] "firebrick3"           "firebrick4"           "floralwhite"         
+[139] "forestgreen"          "gainsboro"            "ghostwhite"          
+[142] "gold"                 "gold1"                "gold2"               
+[145] "gold3"                "gold4"                "goldenrod"           
+[148] "goldenrod1"           "goldenrod2"           "goldenrod3"          
+[151] "goldenrod4"           "gray"                 "gray0"               
+[154] "gray1"                "gray2"                "gray3"               
+[157] "gray4"                "gray5"                "gray6"               
+[160] "gray7"                "gray8"                "gray9"               
+[163] "gray10"               "gray11"               "gray12"              
+[166] "gray13"               "gray14"               "gray15"              
+[169] "gray16"               "gray17"               "gray18"              
+[172] "gray19"               "gray20"               "gray21"              
+[175] "gray22"               "gray23"               "gray24"              
+[178] "gray25"               "gray26"               "gray27"              
+[181] "gray28"               "gray29"               "gray30"              
+[184] "gray31"               "gray32"               "gray33"              
+[187] "gray34"               "gray35"               "gray36"              
+[190] "gray37"               "gray38"               "gray39"              
+[193] "gray40"               "gray41"               "gray42"              
+[196] "gray43"               "gray44"               "gray45"              
+[199] "gray46"               "gray47"               "gray48"              
+[202] "gray49"               "gray50"               "gray51"              
+[205] "gray52"               "gray53"               "gray54"              
+[208] "gray55"               "gray56"               "gray57"              
+[211] "gray58"               "gray59"               "gray60"              
+[214] "gray61"               "gray62"               "gray63"              
+[217] "gray64"               "gray65"               "gray66"              
+[220] "gray67"               "gray68"               "gray69"              
+[223] "gray70"               "gray71"               "gray72"              
+[226] "gray73"               "gray74"               "gray75"              
+[229] "gray76"               "gray77"               "gray78"              
+[232] "gray79"               "gray80"               "gray81"              
+[235] "gray82"               "gray83"               "gray84"              
+[238] "gray85"               "gray86"               "gray87"              
+[241] "gray88"               "gray89"               "gray90"              
+[244] "gray91"               "gray92"               "gray93"              
+[247] "gray94"               "gray95"               "gray96"              
+[250] "gray97"               "gray98"               "gray99"              
+[253] "gray100"              "green"                "green1"              
+[256] "green2"               "green3"               "green4"              
+[259] "greenyellow"          "grey"                 "grey0"               
+[262] "grey1"                "grey2"                "grey3"               
+[265] "grey4"                "grey5"                "grey6"               
+[268] "grey7"                "grey8"                "grey9"               
+[271] "grey10"               "grey11"               "grey12"              
+[274] "grey13"               "grey14"               "grey15"              
+[277] "grey16"               "grey17"               "grey18"              
+[280] "grey19"               "grey20"               "grey21"              
+[283] "grey22"               "grey23"               "grey24"              
+[286] "grey25"               "grey26"               "grey27"              
+[289] "grey28"               "grey29"               "grey30"              
+[292] "grey31"               "grey32"               "grey33"              
+[295] "grey34"               "grey35"               "grey36"              
+[298] "grey37"               "grey38"               "grey39"              
+[301] "grey40"               "grey41"               "grey42"              
+[304] "grey43"               "grey44"               "grey45"              
+[307] "grey46"               "grey47"               "grey48"              
+[310] "grey49"               "grey50"               "grey51"              
+[313] "grey52"               "grey53"               "grey54"              
+[316] "grey55"               "grey56"               "grey57"              
+[319] "grey58"               "grey59"               "grey60"              
+[322] "grey61"               "grey62"               "grey63"              
+[325] "grey64"               "grey65"               "grey66"              
+[328] "grey67"               "grey68"               "grey69"              
+[331] "grey70"               "grey71"               "grey72"              
+[334] "grey73"               "grey74"               "grey75"              
+[337] "grey76"               "grey77"               "grey78"              
+[340] "grey79"               "grey80"               "grey81"              
+[343] "grey82"               "grey83"               "grey84"              
+[346] "grey85"               "grey86"               "grey87"              
+[349] "grey88"               "grey89"               "grey90"              
+[352] "grey91"               "grey92"               "grey93"              
+[355] "grey94"               "grey95"               "grey96"              
+[358] "grey97"               "grey98"               "grey99"              
+[361] "grey100"              "honeydew"             "honeydew1"           
+[364] "honeydew2"            "honeydew3"            "honeydew4"           
+[367] "hotpink"              "hotpink1"             "hotpink2"            
+[370] "hotpink3"             "hotpink4"             "indianred"           
+[373] "indianred1"           "indianred2"           "indianred3"          
+[376] "indianred4"           "ivory"                "ivory1"              
+[379] "ivory2"               "ivory3"               "ivory4"              
+[382] "khaki"                "khaki1"               "khaki2"              
+[385] "khaki3"               "khaki4"               "lavender"            
+[388] "lavenderblush"        "lavenderblush1"       "lavenderblush2"      
+[391] "lavenderblush3"       "lavenderblush4"       "lawngreen"           
+[394] "lemonchiffon"         "lemonchiffon1"        "lemonchiffon2"       
+[397] "lemonchiffon3"        "lemonchiffon4"        "lightblue"           
+[400] "lightblue1"           "lightblue2"           "lightblue3"          
+[403] "lightblue4"           "lightcoral"           "lightcyan"           
+[406] "lightcyan1"           "lightcyan2"           "lightcyan3"          
+[409] "lightcyan4"           "lightgoldenrod"       "lightgoldenrod1"     
+[412] "lightgoldenrod2"      "lightgoldenrod3"      "lightgoldenrod4"     
+[415] "lightgoldenrodyellow" "lightgray"            "lightgreen"          
+[418] "lightgrey"            "lightpink"            "lightpink1"          
+[421] "lightpink2"           "lightpink3"           "lightpink4"          
+[424] "lightsalmon"          "lightsalmon1"         "lightsalmon2"        
+[427] "lightsalmon3"         "lightsalmon4"         "lightseagreen"       
+[430] "lightskyblue"         "lightskyblue1"        "lightskyblue2"       
+[433] "lightskyblue3"        "lightskyblue4"        "lightslateblue"      
+[436] "lightslategray"       "lightslategrey"       "lightsteelblue"      
+[439] "lightsteelblue1"      "lightsteelblue2"      "lightsteelblue3"     
+[442] "lightsteelblue4"      "lightyellow"          "lightyellow1"        
+[445] "lightyellow2"         "lightyellow3"         "lightyellow4"        
+[448] "limegreen"            "linen"                "magenta"             
+[451] "magenta1"             "magenta2"             "magenta3"            
+[454] "magenta4"             "maroon"               "maroon1"             
+[457] "maroon2"              "maroon3"              "maroon4"             
+[460] "mediumaquamarine"     "mediumblue"           "mediumorchid"        
+[463] "mediumorchid1"        "mediumorchid2"        "mediumorchid3"       
+[466] "mediumorchid4"        "mediumpurple"         "mediumpurple1"       
+[469] "mediumpurple2"        "mediumpurple3"        "mediumpurple4"       
+[472] "mediumseagreen"       "mediumslateblue"      "mediumspringgreen"   
+[475] "mediumturquoise"      "mediumvioletred"      "midnightblue"        
+[478] "mintcream"            "mistyrose"            "mistyrose1"          
+[481] "mistyrose2"           "mistyrose3"           "mistyrose4"          
+[484] "moccasin"             "navajowhite"          "navajowhite1"        
+[487] "navajowhite2"         "navajowhite3"         "navajowhite4"        
+[490] "navy"                 "navyblue"             "oldlace"             
+[493] "olivedrab"            "olivedrab1"           "olivedrab2"          
+[496] "olivedrab3"           "olivedrab4"           "orange"              
+[499] "orange1"              "orange2"              "orange3"             
+[502] "orange4"              "orangered"            "orangered1"          
+[505] "orangered2"           "orangered3"           "orangered4"          
+[508] "orchid"               "orchid1"              "orchid2"             
+[511] "orchid3"              "orchid4"              "palegoldenrod"       
+[514] "palegreen"            "palegreen1"           "palegreen2"          
+[517] "palegreen3"           "palegreen4"           "paleturquoise"       
+[520] "paleturquoise1"       "paleturquoise2"       "paleturquoise3"      
+[523] "paleturquoise4"       "palevioletred"        "palevioletred1"      
+[526] "palevioletred2"       "palevioletred3"       "palevioletred4"      
+[529] "papayawhip"           "peachpuff"            "peachpuff1"          
+[532] "peachpuff2"           "peachpuff3"           "peachpuff4"          
+[535] "peru"                 "pink"                 "pink1"               
+[538] "pink2"                "pink3"                "pink4"               
+[541] "plum"                 "plum1"                "plum2"               
+[544] "plum3"                "plum4"                "powderblue"          
+[547] "purple"               "purple1"              "purple2"             
+[550] "purple3"              "purple4"              "red"                 
+[553] "red1"                 "red2"                 "red3"                
+[556] "red4"                 "rosybrown"            "rosybrown1"          
+[559] "rosybrown2"           "rosybrown3"           "rosybrown4"          
+[562] "royalblue"            "royalblue1"           "royalblue2"          
+[565] "royalblue3"           "royalblue4"           "saddlebrown"         
+[568] "salmon"               "salmon1"              "salmon2"             
+[571] "salmon3"              "salmon4"              "sandybrown"          
+[574] "seagreen"             "seagreen1"            "seagreen2"           
+[577] "seagreen3"            "seagreen4"            "seashell"            
+[580] "seashell1"            "seashell2"            "seashell3"           
+[583] "seashell4"            "sienna"               "sienna1"             
+[586] "sienna2"              "sienna3"              "sienna4"             
+[589] "skyblue"              "skyblue1"             "skyblue2"            
+[592] "skyblue3"             "skyblue4"             "slateblue"           
+[595] "slateblue1"           "slateblue2"           "slateblue3"          
+[598] "slateblue4"           "slategray"            "slategray1"          
+[601] "slategray2"           "slategray3"           "slategray4"          
+[604] "slategrey"            "snow"                 "snow1"               
+[607] "snow2"                "snow3"                "snow4"               
+[610] "springgreen"          "springgreen1"         "springgreen2"        
+[613] "springgreen3"         "springgreen4"         "steelblue"           
+[616] "steelblue1"           "steelblue2"           "steelblue3"          
+[619] "steelblue4"           "tan"                  "tan1"                
+[622] "tan2"                 "tan3"                 "tan4"                
+[625] "thistle"              "thistle1"             "thistle2"            
+[628] "thistle3"             "thistle4"             "tomato"              
+[631] "tomato1"              "tomato2"              "tomato3"             
+[634] "tomato4"              "turquoise"            "turquoise1"          
+[637] "turquoise2"           "turquoise3"           "turquoise4"          
+[640] "violet"               "violetred"            "violetred1"          
+[643] "violetred2"           "violetred3"           "violetred4"          
+[646] "wheat"                "wheat1"               "wheat2"              
+[649] "wheat3"               "wheat4"               "whitesmoke"          
+[652] "yellow"               "yellow1"              "yellow2"             
+[655] "yellow3"              "yellow4"              "yellowgreen"         
+[1] "yellow"      "yellow1"     "yellow2"     "yellow3"     "yellow4"    
+[6] "yellowgreen"
+[1] 1
+ chr [1:657] "white" "aliceblue" "antiquewhite" "antiquewhite1" ...
+[1] 657
+[1] "#80FFFFFF" "#BFFFFFFF" "#FFFFFFFF" "#FFBFFFFF" "#FF80FFFF"
+[1] "#FF0000FF" "#00FF00FF" "#0000FFFF"
+[1] "#FF0000FF" "#FF5500FF" "#FFAA00FF" "#FFFF00FF" "#FFFF80FF"
+[1] 1 1 1 1 1 1 1
+ [1] ".GlobalEnv"        "tools:rstudio"     "package:stats"    
+ [4] "package:graphics"  "package:grDevices" "package:utils"    
+ [7] "package:datasets"  "package:methods"   "Autoloads"        
+[10] "package:base"     
+[1] 1 1 1 1 1 1 1
+[1] "#E41A1C" "#377EB8" "#4DAF4A" "#984EA3" "#FF7F00" "#FFFF33" "#A65628"
+ [1]  0  1  2  3  4  5  6  7  8  9 10
+ [1] 0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0
+ [1] "serif"                "sans"                 "mono"                
+ [4] "AvantGarde"           "Bookman"              "Courier"             
+ [7] "Helvetica"            "Helvetica-Narrow"     "NewCenturySchoolbook"
+[10] "Palatino"             "Times"                "URWGothic"           
+[13] "URWBookman"           "NimbusMon"            "NimbusSan"           
+[16] "URWHelvetica"         "NimbusSanCond"        "CenturySch"          
+[19] "URWPalladio"          "NimbusRom"            "URWTimes"            
+[22] "ArialMT"              "Japan1"               "Japan1HeiMin"        
+[25] "Japan1GothicBBB"      "Japan1Ryumin"         "Korea1"              
+[28] "Korea1deb"            "CNS1"                 "GB1"                 
+NULL
+ [1] "serif"                "sans"                 "mono"                
+ [4] "AvantGarde"           "Bookman"              "Courier"             
+ [7] "Helvetica"            "Helvetica-Narrow"     "NewCenturySchoolbook"
+[10] "Palatino"             "Times"                "URWGothic"           
+[13] "URWBookman"           "NimbusMon"            "NimbusSan"           
+[16] "URWHelvetica"         "NimbusSanCond"        "CenturySch"          
+[19] "URWPalladio"          "NimbusRom"            "URWTimes"            
+[22] "ArialMT"              "ComputerModern"       "ComputerModernItalic"
+[25] "Japan1"               "Japan1HeiMin"         "Japan1GothicBBB"     
+[28] "Japan1Ryumin"         "Korea1"               "Korea1deb"           
+[31] "CNS1"                 "GB1"                 
+ [1] "serif"                "sans"                 "mono"                
+ [4] "AvantGarde"           "Bookman"              "Courier"             
+ [7] "Helvetica"            "Helvetica-Narrow"     "NewCenturySchoolbook"
+[10] "Palatino"             "Times"                "URWGothic"           
+[13] "URWBookman"           "NimbusMon"            "NimbusSan"           
+[16] "URWHelvetica"         "NimbusSanCond"        "CenturySch"          
+[19] "URWPalladio"          "NimbusRom"            "URWTimes"            
+[22] "ArialMT"              "Japan1"               "Japan1HeiMin"        
+[25] "Japan1GothicBBB"      "Japan1Ryumin"         "Korea1"              
+[28] "Korea1deb"            "CNS1"                 "GB1"                 
+null device 
+          1 
+  Sepal.Length Sepal.Width Petal.Length Petal.Width Species
+1          5.1         3.5          1.4         0.2  setosa
+2          4.9         3.0          1.4         0.2  setosa
+3          4.7         3.2          1.3         0.2  setosa
+4          4.6         3.1          1.5         0.2  setosa
+5          5.0         3.6          1.4         0.2  setosa
+6          5.4         3.9          1.7         0.4  setosa
+[1] "setosa"     "versicolor" "virginica" 
+   len supp dose
+1  4.2   VC  0.5
+2 11.5   VC  0.5
+3  7.3   VC  0.5
+4  5.8   VC  0.5
+5  6.4   VC  0.5
+6 10.0   VC  0.5
+'data.frame':	60 obs. of  3 variables:
+ $ len : num  4.2 11.5 7.3 5.8 6.4 10 11.2 11.2 5.2 7 ...
+ $ supp: Factor w/ 2 levels "OJ","VC": 2 2 2 2 2 2 2 2 2 2 ...
+ $ dose: num  0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 ...
+
+Call:
+lm(formula = y ~ x)
+
+Coefficients:
+(Intercept)            x  
+     37.285       -5.344  
+
+
+Call:
+lm(formula = mtcars$wt ~ mtcars$mpg)
+
+Coefficients:
+(Intercept)   mtcars$mpg  
+     6.0473      -0.1409  
+
+
+Call:
+lm(formula = mtcars$mpg ~ mtcars$wt)
+
+Coefficients:
+(Intercept)    mtcars$wt  
+     37.285       -5.344  
+
+Warning in install.packages :
+  installation of package ‘rio’ had non-zero exit status
+Warning in install.packages :
+  installation of package ‘car’ had non-zero exit status
+Warning in install.packages :
+  installation of package ‘rio’ had non-zero exit status
+Warning in install.packages :
+  installation of package ‘rio’ had non-zero exit status
+Warning in install.packages :
+  installation of package ‘rio’ had non-zero exit status
+                   mpg cyl disp  hp drat    wt  qsec vs am gear carb
+Mazda RX4         21.0   6  160 110 3.90 2.620 16.46  0  1    4    4
+Mazda RX4 Wag     21.0   6  160 110 3.90 2.875 17.02  0  1    4    4
+Datsun 710        22.8   4  108  93 3.85 2.320 18.61  1  1    4    1
+Hornet 4 Drive    21.4   6  258 110 3.08 3.215 19.44  1  0    3    1
+Hornet Sportabout 18.7   8  360 175 3.15 3.440 17.02  0  0    3    2
+Valiant           18.1   6  225 105 2.76 3.460 20.22  1  0    3    1
+'data.frame':	32 obs. of  11 variables:
+ $ mpg : num  21 21 22.8 21.4 18.7 18.1 14.3 24.4 22.8 19.2 ...
+ $ cyl : num  6 6 4 6 8 6 8 4 4 6 ...
+ $ disp: num  160 160 108 258 360 ...
+ $ hp  : num  110 110 93 110 175 105 245 62 95 123 ...
+ $ drat: num  3.9 3.9 3.85 3.08 3.15 2.76 3.21 3.69 3.92 3.92 ...
+ $ wt  : num  2.62 2.88 2.32 3.21 3.44 ...
+ $ qsec: num  16.5 17 18.6 19.4 17 ...
+ $ vs  : num  0 0 1 1 0 1 0 1 1 1 ...
+ $ am  : num  1 1 1 0 0 0 0 0 0 0 ...
+ $ gear: num  4 4 4 3 3 3 3 4 4 4 ...
+ $ carb: num  4 4 1 1 2 1 4 2 2 4 ...
+[1] "4" "6" "8"
