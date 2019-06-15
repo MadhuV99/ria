@@ -1,4 +1,5 @@
 # ria_graphs2.R
+#under git control.
 rm(list=ls())
 setwd('~/pj/ria')
 getwd()
